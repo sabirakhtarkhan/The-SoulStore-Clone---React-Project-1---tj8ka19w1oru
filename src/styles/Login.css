@@ -1,0 +1,120 @@
+.lg-main {
+    width: 98.7vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 7.3rem; */
+    /* border: 2px solid  green; */
+
+}
+
+.main-login-register-ctn {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    /* height: 85vh; */
+    width: 50vw;
+    box-shadow: 0px 19px 38px 0px rgba(0, 0, 0, 0.3),
+        0px 15px 12px 0px rgba(0, 0, 0, 0.22);
+    align-items: center;
+    margin-top: 12rem;
+
+}
+
+.form-control {
+    display: block;
+    width: 15rem;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.toggle-btn-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+    border: none;
+    width: 57%;
+    margin-top: 2rem;
+   
+   
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    /* border: 2px solid green; */
+    margin-top: 0.9rem;
+    text-align: center;
+    align-items: center;
+    padding: 0.2rem;
+    
+}
+
+.container {
+    /* border: 2px solid black; */
+    height: 25rem;
+    width: 55%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.rtg-container{
+    height: 80%;
+    width: 55%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.btn-pry {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #298E83;
+}
+.row{
+    box-shadow: 0px 10px 20px #9c9b9b;
+    background: #f1f1f2;
+    margin: 15px 0;
+    /* padding: 30px; */
+    height: auto;
+}
+.btn-toggle{
+    width: 70%;
+    height: 2.8rem;
+    /* background-color: aqua; */
+   border: 1px solid #9c9b9b;
+    box-shadow: 0px 10px 10px #9c9b9b;
+}
+label{
+    margin: 0;
+}
+.active-log-reg{
+    background-color: #298E83;
+    width: 70%;
+    height: 2.8rem;
+   border: 1px solid #9c9b9b;
+    box-shadow: 0px 10px 10px #9c9b9b;
+}
+.signup-user{
+    width: 250px;
+    font-size: 16px;
+    font-weight: 400;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading-home{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    /* margin-top: 80rem; */
+    /* padding-top: 100px; */
+    /* align-items: center; */
+}
+.main-cart-container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* margin-top: 10rem; */
+}
+.bestDeals-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestDeals-cart-container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+
+}
+/* .cart-container-main{
+    height: 16rem;
+    width: 32rem;
+} */
+.home-cart-container{
+    /* height: 30px; */
+    width: 350px;
+    /* border: 1px solid black; */
+     position: relative;
+    display: inline-block; 
+}
+
+.bestDeals-cart-container{
+    /* height: 30px; */
+    width: 300px;
+    /* border: 1px solid black; */
+     position: relative;
+    display: inline-block; 
+    
+}
+
+.bestdeals-cart-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;  
+    margin-bottom: 10px;  
+}
+
+.bestdeals-cart-img:hover{
+ transform: scale(1.1);
+ transition: all 0.5s ease-in-out;
+}
+
+.description{
+    position: absolute;
+    bottom: 1rem;
+    width: 50%;
+    left: 6rem;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #808080;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+}
+.para-description{
+    margin: 0;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* .bestdeals{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 95vw;
+    overflow-x: scroll;
+} */
+.home-hero-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 7rem;
+    /* border: 1px solid black; */
+    padding: 0;
+}
+.home-hero-img{
+    width: 100%;
+}
+
+
